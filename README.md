@@ -1,1 +1,4 @@
-# Parameter-Inference-with-MCMC-in-Heston-s-Model
+# Parameter Inference with MCMC in Heston’s Model
+
+
+The Wiener process is an important model in financial mathematics, where it is used for pricing assets. However, the model assumes these asset prices stay constantly volatile over time, which fails in many practical scenarios. To overcome this constraint, Heston’s stochastic volatility model extends upon the Wiener process framework by modelling volatility with another stochastic process. Due to this hierarchical structure of many parameters, parameter estimation of Heston’s model requires a full Bayesian treatment to avoid overfitting, and this must be done with MCMC. In this project, we will explore the motivation and theory of Heston’s model from first principles. Next, we will explore the theory of MCMC and run simulations for sampling the posterior distribution of the parameters. This will be finally applied on a Google stock dataset, where Heston’s models find the most applications.
